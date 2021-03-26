@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+/*--- navigation--*/
+
+.navbar-nav .nav-link{
+    font-size: 15px;
+    color: #919192;
+    font-family: 'Roboto', ;
+    font-weight: 500;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #FF4141 ;
+}
+.navbar-nav .nav-item:hover:after{
+    content:'';
+    height: 5px;
+    width:5%;
+    background-color: #FF4141;
+    position: absolute;
+    top: 0px;
+}
+/*---end  navigation--*/
+
+.hi-tech{
+    background-color: #FF4141;
+}
+.carousel-caption{
+  right: 50%;
+  top: 20%;
+}
+.carousel-indicators li{
+    background-color: #FF4141;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.intro-slide:hover,.product-slide:hover,.read-more:hover,.view-result:hover{
+    text-decoration: none;
+}
+.product-slide{
+    color: #888;
+}
+.disc a{
+    font-size: 12px;
+}
+.title,.popular{
+    font-family: 'Roboto', ;
+    font-size: 20px;
+
+}
+
+.read-more,.popular{
+    color: #FF4141;
+}
+.read-more:hover{
+    color: #FF4141;
+}
+.popular-title{
+    font-size: 11px;
+    font-weight:500;   
+}
+
+.popular-disc a{
+ font-size: 10px;
+}
+.img-pic{
+    position: relative;
+}
+.pic-btn{
+    position: absolute;
+    background-color: #FF4141;
+    top:5px;
+    left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 10px;
+}
+.categorie-section li{
+    border-bottom: 2px dashed rgb(180,180,198,0.5 );
+    padding: 10px;
+    list-style: none;
+}
+
+.tag-btn{
+    padding-left: 10px;
+    padding-right:10px;
+    background-color: rgb(180,180,198,0.5 );
+    font-size: 12px;
+}
+
+.footer-section li{
+  font-size: 14px;
+  list-style: none;
+}
+.footer-link{
+    display: inline-block;
+    margin: 10px;
+    padding:20px;
+}
+
+.social-media i{
+    padding: 5px 10px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.social-media i:hover{
+    background-color: #ffffff;
+    color: #FF4141;
+}
+
+/*--read more page--*/
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+.article{
+    background-image: url("../image/prod2.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+.article-contenu{
+    position: absolute;
+    top: 52%;
+    right: 0;
+    left: 0;
+}
+.title-article{
+    font-size: 35px;
+    color: #FF4141;
+    font-family: 'Roboto', ;
+}
+.article-desc p{
+    font-family: 'Lato', ;
+}
+/*---contact---*/
+.fa-envelope-open{
+    color: #FF4141;
+}
+.text-form{
+    border-bottom: 1px solid rgb(255, 65, 65,0.2);
+    position: relative;
+    margin:  10px 0;
+}
+
+.contact .text-form input{
+    font-size: 15px;
+    color: #333;
+    border:none;
+    width: 100%;
+    outline: none;
+    background: none;
+    padding: 0 5px;
+    height: 30px;
+}
+.contact .text-form input:focus{
+  border: none;
+  box-shadow: none;
+}
+
+.text-form span::before{
+    content: attr(data-placeholder);
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color:rgb(255, 65, 65,0.5);
+    transform: translateY(-50%);
+    z-index: -1;
+    transition: .5s;
+}
+
+.text-form span::after{
+    content:'';
+    width: 0%;
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    height:2px;
+    background:#FF4141;
+    transition: .5s;
+}
+
+.focus + span::before{
+    top: -5px;
+}
+.focus + span::after{
+    width: 100%;
+}
+
+.form-group textarea{
+    border-color:rgb(255, 65, 65,0.2); 
+}
+.form-group textarea:focus{
+    border:1px solid #FF4141;
+    box-shadow:none;
+}
+.btn-contact{
+    background-color: #ffffff;
+    color: rgb(255, 65, 65,0.5);
+    border: 1px solid rgb(255, 65, 65,0.5);
+    font-size: 15px;
+    border-radius: 10px;
+
+}
+
+.btn-contact:hover{
+    background-color: #FF4141;
+    color: #ffffff;
+}

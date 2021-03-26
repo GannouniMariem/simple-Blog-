@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+     <!---Bootstrap cdn-->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <!--css style-->
+     <link rel="stylesheet" href="../css/style.css">
+     <!--fontawesome-->
+     <script src="https://kit.fontawesome.com/03a05b78bd.js" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body>
+      <!--navigation-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white pl-5 py-0">
+        <a class="navbar-brand " href="#"><img src="../image/logo.png" width="50px" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto pl-5">
+            <li class="nav-item ">
+              <a class="nav-link " href="/index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">LIFE STYLE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">TRAVEL</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#">TRAVEL</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#">FASHION</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#">GALLARY</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#">CONTACT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#" >...</a>
+            </li>
+            
+           <ul class="navbar-nav ml-lg-5">
+            <li class="nav-item">
+                <a class="nav-link " href="#">LOGIN</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link " href="#">REGISTER</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link " href="#"><i class="fas fa-search"></i></a>
+            </li>
+
+            
+            <li class="nav-item">
+                <a class="nav-link " href="#">EN</a>
+            </li>
+           </ul>
+          </ul>
+      </nav>
+    <!--/navigation-->
+
+<!--/contact-->
+    <div class="container contact">
+      <div class="row my-5">
+          <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center">
+              <img src="../image/contact.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 d-flex align-items-center justify-content-center text-right">
+            <form >
+                <div class="form-row my-2">
+                    <div class="col text-form mr-1">
+                        <input type="text">
+                        <span data-placeholder="First name"></span>
+
+                    </div>
+                    <div class="col text-form">
+                        <input type="text">
+                        <span data-placeholder="Last name"></span>
+
+                    </div>
+                 </div>
+                <div class="form-group text-form my-5">
+                    <input type="email" class="form-control">
+                    <span data-placeholder="email"></span>
+
+                  </div>
+                  <div class="form-group ">
+                    <textarea class="form-control" rows="5"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-contact  mb-3">send</button>
+
+              </form>
+          </div>
+      </div>
+    </div>
+
+    
+    <script type="text/javascript">
+        $(".text-form input").on("focus",function(){
+          $(this).addClass("focus");
+        });
+        $(".text-form input").on("blur",function(){
+          if($(this).val()=="")
+          $(this).removeClass("focus");
+        });
+                     
+   </script>
+<!--/contact-->
+        <!--footer-->
+    <section>
+     <div class="container-fluid" style="background-color:#FF4141;">
+       <div class="row">
+         <div class="col-lg-8 col-md-8 col-sm-12">
+                  <div class="footer-link">
+                      <p class="text-white">lorem ipsum</p>
+                      <ul class="footer-section p-0">
+                            <li><a class="text-white" href="#">lorem</a class="text-white"></li>
+                            <li><a class="text-white" href="#">lorem</a></li>
+                            <li><a class="text-white" href="#">lorem</a></li>
+                            <li><a class="text-white" href="#">lorem</a></li>
+                            <li><a class="text-white" href="#">lorem</a></li>
+                            <li><a class="text-white" href="#">lorem</a></li>
+                      </ul>
+                  </div>
+            
+                <div class="footer-link">
+                    <p class="text-white">lorem ipsum</p>
+                    <ul class="footer-section p-0">
+                        <li><a class="text-white" href="#">lorem</a></li>
+                        <li><a class="text-white" href="#">lorem</a></li>
+                        <li><a class="text-white" href="#">lorem</a></li>
+                        <li><a class="text-white" href="#">lorem</a></li>
+                        <li><a class="text-white" href="#">lorem</a></li>
+                        <li><a class="text-white" href="#">lorem</a></li>
+                    </ul>
+                </div>
+
+            
+            <div class="footer-link">
+              <p class="text-white">lorem ipsum</p>
+              <ul class="footer-section p-0">
+                <li><a class="text-white" href="#">lorem</a></li>
+                <li><a class="text-white" href="#">lorem</a></li>
+                <li><a class="text-white" href="#">lorem</a></li>
+                <li><a class="text-white" href="#">lorem</a></li>
+                <li><a class="text-white" href="#">lorem</a></li>
+                <li><a class="text-white" href="#">lorem</a></li>
+              </ul>
+            </div>
+
+            
+            <div class="footer-link">
+                  <p class="text-white">lorem ipsum</p>
+                <ul class="footer-section p-0">
+                    <li><a class="text-white" href="#">lorem</a></li>
+                    <li><a class="text-white" href="#">lorem</a></li>
+                    <li><a class="text-white" href="#">lorem</a></li>
+                    <li><a class="text-white" href="#">lorem</a></li>
+                    <li><a class="text-white" href="#">lorem</a></li>
+                    <li><a class="text-white" href="#">lorem</a></li>
+                </ul>
+            </div>
+      </div>
+        <div class="col-lg-4 col-md-4 col-sm-12  ">
+           <div class="w-100">
+             <div class="social-media mt-5 mb-4">
+               <a href="#"><i class="fab fa-facebook-f mr-2"></i></a>
+               <a href="#"><i class="fab fa-twitter mr-2"></i></a>
+               <a href="#"><i class="fab fa-youtube mr-2"></i></a>
+               <a href="#"><i class="fab fa-linkedin-in mr-2"></i></a>
+             </div>
+            <p class="text-white">newslettre subscribe</p>
+            <div class="input-group mb-3">
+                <input type="email" class="form-control" placeholder="email">
+                <div class="input-group-append">
+                  <button class="btn bg-white" type="button" style="color: #FF4141; border-color: #FF4141;">Button</button>
+                </div>
+          </div> 
+           </div> 
+       </div>
+     </div>
+     </div>
+     <div class="text-center bg-white m-0 w-100">
+      <p style="color: #FF4141;" class="pt-3"><i class="fas fa-copyright"></i> COPYRIGHT</p>
+    </div>
+    </section>
+    <!--/footer-->
+
+
+
+
+   <!--bootstrap cdn-->
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
